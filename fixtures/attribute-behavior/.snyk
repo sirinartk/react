@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:stringstream:20180511':
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2023-07-13T02:48:46.023Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom
+          > jsdom > request > stringstream
